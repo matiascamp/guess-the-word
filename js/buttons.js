@@ -1,4 +1,4 @@
-import randomWord from "./randomWord";
+import randomWord from "./randomWord.js";
 import { gameState, mistakes, tries } from "./InitialCharge.js";
 import updateCircles from "./circles-tries.js";
 

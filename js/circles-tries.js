@@ -1,4 +1,4 @@
-import { gameState } from "./InitialCharge";
+import { gameState } from "./InitialCharge.js";
 
 
 export default function updateCircles () {

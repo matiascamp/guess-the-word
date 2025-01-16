@@ -1,5 +1,5 @@
-import generateInputs from "./generateInputs";
-import disorderElement from "./disorderElement";
+import generateInputs from "./generateInputs.js";
+import disorderElement from "./disorderElement.js";
 import { words, gameState } from "./InitialCharge.js";
 
 export default function randomWord() {
@@ -13,6 +13,6 @@ export default function randomWord() {
     const showWord = document.querySelector('.show-word');
 
     showWord.innerHTML = scrambledWord;
-    
+
     generateInputs(gameState.actualWord)
 }
