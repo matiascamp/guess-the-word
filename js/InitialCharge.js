@@ -1,7 +1,7 @@
 import { Reset, Random, Return } from './buttons.js';
 import randomWord from './randomWord.js';
 
-export const words = ["manzana", "banana", "cereza", "durazno", "limón", "naranja", "pera", "uva"];
+export const words = ["flower","sun","moon","grass","jewel","bycicle","pencil","tree"];
 export const gameState = {
     actualWord: '',
     countError: 0,
